@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class file1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("rita.txt: ");
+        System.out.print("C:\User\user\desctoprita.txt: ");
         String fileName = scanner.nextLine();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
